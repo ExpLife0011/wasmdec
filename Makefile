@@ -1,5 +1,6 @@
 SRC=$(wildcard src/*.cc src/**/*.cc)
 OBJS=$(SRC:.cc=.o)
+# STATIC_LIB=$(wildcard src/binaryen/lib/*.a)
 OUT=wasmdec
 CC=g++
 CCOPTS=-std=c++14 -Isrc/binaryen/src -c -Wall

@@ -8,6 +8,7 @@
 #include <iterator>
 
 #include "Decompiler.h"
+#include "asm2wasm.h"
 
 bool readFile(vector<char>* data, string path) {
 	ifstream file(path);
